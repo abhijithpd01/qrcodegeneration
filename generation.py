@@ -6,7 +6,7 @@ qr=qrcode.QRCode(
   border=5,
   )
 
-data="hello"
+data="685603,GECI,Painavu"
 qr.add_data(data)
 qr.make(fit=true)
 img=qr.make_image(fill="black",back_color="white")
